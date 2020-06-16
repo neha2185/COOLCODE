@@ -1,3 +1,4 @@
+package com.java.basics;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -10,7 +11,7 @@ public class TestClass {
 		// TODO Auto-generated method stub
 		System.out.println("My first program on PC...");
 
-		String myNames = "Saibaba,Ganapati,Shiv";
+		/*String myNames = "Saibaba,Ganapati,Shiv";
 		Set<String> setNames = StringUtils.isBlank(myNames) ? new LinkedHashSet<String>()
 				: new LinkedHashSet<String>(Arrays.asList(myNames.split(",")));
 
@@ -18,7 +19,10 @@ public class TestClass {
 		setNames.add("Saibaba");
 
 		setNames.stream().forEach(System.out::println);
+		*/
 		
+		System.out.println(Math.abs(2-6));
+
 	}
 
 }
